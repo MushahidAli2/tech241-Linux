@@ -1,7 +1,7 @@
 # Basic Command Line Commands
 
 ## Introduction
-The command line interface (CLI) is a powerful tool for interacting with your computer. Here are some essential commands to get you started.
+The command line interface (CLI) is a powerful tool for interacting with your computer.
 
 ## Commands
 
