@@ -19,17 +19,17 @@ a. Set User to read, Group to read + write + execute, and Other to read and writ
 chmod u=r,g=rwx,o=rw testfile.txt
 ```
 b. Add execute permissions (to all entities):
-
+```
 chmod +x testfile.txt
-
+```
 c. Take write permissions away from Group:
-
+```
 chmod g-w testfile.txt
-
+```
 d. Use numeric values to give read + write access to User, read access to Group, and no access to Other:
-
+```
 chmod 640 testfile.txt
-
+```
 In this case, the numeric value 640 represents the permissions as follows:
 
 User: Read + Write (6)
