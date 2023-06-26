@@ -10,7 +10,7 @@ To install an older version of Node.js, execute the following command:
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 ```
 
-Please note that this command installs a deprecated version of Node.js that is no longer officially supported.
+Please note tthat this command installs a deprecated version of Node.js that is no longer officially supported.
 
 To install Node.js, use the following command:
 ```bash
