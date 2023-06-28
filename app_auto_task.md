@@ -258,7 +258,7 @@ ps aux | grep "node app.js"
 ```
 This will display the process details, including the PID.
 
-Use the PID to stop the application:
+Use the PID to stop the application::
 
 ```bash
 kill <PID>
