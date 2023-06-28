@@ -14,7 +14,7 @@ To run the script, ensure that you have the following:
 
 The script performs the following steps::
 
-1. Update and upgrade the Linux VM:
+1. Update and upgrade the Linux VM::
 
     ```
     sudo apt update -y

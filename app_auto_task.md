@@ -251,7 +251,7 @@ To stop the application running in the background, you can use the kill command 
 
 Here's an example of how you can stop the application running in the background:
 
-Find the PID of the application process:
+Find the PID of the application process::
 
 ```bash
 ps aux | grep "node app.js"
