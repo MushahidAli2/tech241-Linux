@@ -248,6 +248,7 @@ The nohup command is used to run a command immune to hangups, and & is used to r
 Before you can run the same command again, you need to ensure that the previous instance of the application is stopped or terminated. Otherwise, attempting to run the command again will result in an error because the application is already running.
 
 To stop the application running in the background, you can use the kill command followed by the process ID (PID) of the application. You can find the PID by using the ps command to list running processes and locating the process corresponding to the application.
+the port is already being used
 
 Here's an example of how you can stop the application running in the background:
 
