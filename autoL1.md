@@ -169,60 +169,6 @@ nohup npm start &
 
 ```
 
-Script 2:
-
-```bash 
-Copy code
-#!/bin/bash
-
-# update source list
-sudo apt update -y
-
-# upgrade all the packages and installs them in the kernal
-sudo apt upgrade -y
-
-# install nginx
-sudo apt install nginx -y
-
-# Start nginx on boot
-sudo systemctl enable nginx
-
-# start nginx
-sudo systemctl start nginx
-
-# status nginx
-# sudo systemctl status nginx
-
-# restart nginx
-sudo systemctl restart nginx
-
-# enable nginx - auto runs on startup
-sudo systemctl enable nginx
-
-# download node js
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-
-# install node js
-sudo apt install nodejs -y
-
-# update source list
-sudo apt update -y
-
-# install pm2
-sudo npm install -g pm2
-
-# git clone app
-git clone https://github.com/jungjinggg/tech241_sparta_app app-github-automation
-
-# get into app folder
-cd ~/app-github-automation/app
-
-# install node js inside folder
-npm install -y
-
-# start app in the background
-nohup npm start &
-```
 
 ## Explanation
 
