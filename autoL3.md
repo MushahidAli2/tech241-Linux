@@ -1,6 +1,6 @@
 # Automation L3 - Modify app VM script to use database VM
 
-This script modifies the app VM script from "Automation L1 - Start the Sparta app with a script (no database)" to use a separate database VM for the Sparta app. The database VM script should be executed first before running this script.
+This script modifies the app VM script from "Automation L1 - Start the Sparta app with a script (no database)" to use a separate database VM for the Sparta app, for extra details regarding the script please refer to AutoL1, the only different in this script is the addition of line 5. The database VM script should be executed first before running this script.
 
 ## Prerequisites
 - Linux VM running Ubuntu 18.04 LTS
