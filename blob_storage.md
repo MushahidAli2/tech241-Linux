@@ -63,3 +63,6 @@ In summary, Azure Blob storage is a scalable and durable cloud storage service d
   - Similar to GZRS, but with the additional ability to read data from the secondary region.
   - Allows read access to the data even if both the primary region and primary availability zone are unavailable.
   - Suitable for scenarios where read access to data is required during a primary region and availability zone outage.
+
+  
+![Alt Text](./blob_storage.jpg)
