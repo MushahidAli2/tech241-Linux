@@ -7,6 +7,9 @@ The command line interface (CLI) is a powerful tool for interacting with your co
 
 ### `cd`
 The `cd` command is used to change the current working directory. For example:
+'''python
+cd
+'''
 
 ### `cd Documents`
 This command will navigate to the "Documents" directory.
